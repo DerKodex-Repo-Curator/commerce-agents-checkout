@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a reproducible problem in the checkout adapter.
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Do not include Access Tokens, shopper data,
+        session IDs, idempotency keys, complete checkout URLs, or suspected
+        security vulnerabilities. For a vulnerability, follow SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      description: Include the installed package version and Python version.
+      placeholder: "mercadopago-commerce-agents-checkout 0.1.0; Python 3.12"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal sanitized reproduction
+      description: Provide the smallest code or steps that reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include sanitized output or stack traces when helpful.
+    validations:
+      required: true
+  - type: checkboxes
+    id: security
+    attributes:
+      label: Safety check
+      options:
+        - label: This report contains no credentials, personal data, or complete checkout URLs.
+          required: true
+        - label: This is not a suspected security vulnerability.
+          required: true
+

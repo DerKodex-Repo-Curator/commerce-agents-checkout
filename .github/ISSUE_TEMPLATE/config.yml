@@ -1,0 +1,12 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/mercadopago/commerce-agents-checkout/security/policy
+    about: Report suspected vulnerabilities privately. Do not open a public issue.
+  - name: Integration and testing guides
+    url: https://github.com/mercadopago/commerce-agents-checkout/tree/main/docs
+    about: Read the public integration, testing, and security documentation first.
+  - name: Mercado Pago Developer Support
+    url: https://www.mercadopago.com/developers/support
+    about: Get help with an account, payments, or a hosted checkout product.
+
