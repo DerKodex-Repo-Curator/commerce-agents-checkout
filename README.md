@@ -11,13 +11,13 @@
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/mercadopago-commerce-agents-checkout/"><img src="https://img.shields.io/pypi/v/mercadopago-commerce-agents-checkout?label=PyPI&color=009EE3" alt="PyPI" /></a>
-  <a href="https://github.com/mercadopago/commerce-agents-checkout/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-009EE3" alt="Apache-2.0 License" /></a>
+  <a href="https://pypi.org/project/mercadopago-commerce-agents-checkout/"><img src="https://img.shields.io/pypi/v/mercadopago-commerce-agents-checkout?label=PyPI&color=0077A8" alt="Latest mercadopago-commerce-agents-checkout version on PyPI" /></a>
+  <a href="https://github.com/mercadopago/commerce-agents-checkout/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-0077A8" alt="Apache 2.0 license" /></a>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white" alt="Python 3.11 or newer" /></a>
 </p>
 
 <p align="center">
-  <a href="#install">Install</a> · <a href="./SECURITY.md">Security</a> · <a href="#documentation">Documentation</a>
+  <a href="#install">Install</a> · <a href="https://github.com/mercadopago/commerce-agents-checkout/security/policy">Security</a> · <a href="#documentation">Documentation</a>
 </p>
 
 ---
