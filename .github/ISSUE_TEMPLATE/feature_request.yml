@@ -7,8 +7,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for the suggestion. Do not include credentials, buyer data, or
-        account-specific production details. Security reports belong in SECURITY.md.
+        Thanks for the suggestion. Do not include credentials, buyer data,
+        session IDs, Order IDs, seller references (including external_reference),
+        idempotency keys, complete checkout URLs, or account-specific production
+        details. Security reports belong in SECURITY.md.
   - type: textarea
     id: problem
     attributes:
@@ -34,6 +36,7 @@ body:
     attributes:
       label: Security boundary
       options:
-        - label: The proposal keeps trusted catalog data, payment credentials, and buyer data outside model-controlled input.
+        - label: >-
+            The proposal keeps trusted catalog data, payment credentials, and
+            buyer data outside model-controlled input.
           required: true
-

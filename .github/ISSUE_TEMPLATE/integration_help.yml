@@ -1,0 +1,64 @@
+name: Integration or documentation help
+description: Ask a sanitized question about setup, integration, testing, or documentation.
+title: "help: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for questions about this open source package. For an
+        account, live payment, or hosted checkout issue, use Mercado Pago
+        Developer Support instead.
+
+        Do not include credentials, buyer data, session IDs, Order IDs, seller
+        references (including external_reference), idempotency keys, complete
+        checkout URLs, or suspected security vulnerabilities. For a
+        vulnerability, follow SECURITY.md.
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Installation or setup
+        - Integration behavior
+        - Testing
+        - Documentation correction
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package and Python versions
+      description: Include these when they are relevant to the question.
+      placeholder: "mercadopago-commerce-agents-checkout 0.1.0; Python 3.12"
+    validations:
+      required: false
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or documentation change
+      description: Explain what you are trying to do, what you read, and where you are blocked.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Sanitized context
+      description: >-
+        Add the smallest sanitized snippet or documentation link needed to
+        understand the question.
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: >-
+            This report contains no credentials, personal data, session IDs,
+            Order IDs, seller references, idempotency keys, or complete checkout
+            URLs.
+          required: true
+        - label: >-
+            This is not a suspected security vulnerability or an
+            account-specific support request.
+          required: true

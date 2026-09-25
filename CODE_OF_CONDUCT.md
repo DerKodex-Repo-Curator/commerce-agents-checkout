@@ -36,11 +36,11 @@ Project maintainers may remove, edit, or reject contributions and comments that
 do not follow this Code of Conduct. Depending on the circumstances, they may
 also issue a warning or temporarily or permanently restrict participation.
 
-To report a concern, contact Mercado Pago through the private
-[Developer Support channel](https://www.mercadopago.com/developers/support).
-Do not use a public issue for a report that includes personal information or
-would make someone unsafe. Security vulnerabilities follow the separate
-[security policy](SECURITY.md).
+To report a conduct concern privately, email the project maintainers at
+[mp_sdk@mercadopago.com](mailto:mp_sdk@mercadopago.com) with the subject
+`Commerce Agents Checkout conduct report`. Do not use a public issue for a
+report that includes personal information or would make someone unsafe.
+Security vulnerabilities follow the separate [security policy](SECURITY.md).
 
 ## Scope
 
@@ -50,6 +50,5 @@ project in public.
 
 ## Attribution
 
-This Code of Conduct is adapted from the
-[Contributor Covenant, version 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).
-
+This Code of Conduct is adapted from the Contributor Covenant,
+[version 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).

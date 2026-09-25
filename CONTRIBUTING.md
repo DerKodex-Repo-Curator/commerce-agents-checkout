@@ -1,9 +1,9 @@
 # Contributing
 
 Thanks for considering a contribution to `mercadopago-commerce-agents-checkout`.
-This project turns a seller-controlled, trusted cart into a Checkout Pro Order
-handoff for a commerce-agents backend. Changes should preserve that security
-boundary.
+This project turns an agent-supplied cart, verified against a seller-controlled
+trusted catalog, into a Checkout Pro Order handoff for a commerce-agents
+backend. Changes should preserve that security boundary.
 
 Please follow the [Code of Conduct](CODE_OF_CONDUCT.md) in every project space.
 
@@ -13,9 +13,11 @@ Please follow the [Code of Conduct](CODE_OF_CONDUCT.md) in every project space.
   data, use the private path in [SECURITY.md](SECURITY.md). Do not open a public
   issue.
 - For installation and integration questions, start with the
-  [integration guide](docs/integration.md) and [support guide](SUPPORT.md).
-- For reproducible bugs or focused improvements, search existing issues first
-  and then use the appropriate issue template.
+  [integration guide](docs/integration.md) and [support guide](SUPPORT.md). If
+  those do not resolve the question, use the integration or documentation help
+  issue form with sanitized information.
+- For reproducible bugs, documentation corrections, or focused improvements,
+  search existing issues first and then use the appropriate issue template.
 
 ## Development setup
 
@@ -48,8 +50,9 @@ part of an unrelated contribution.
 2. Keep each pull request scoped to one problem. Include tests when behavior
    changes, and update public documentation when the integration contract
    changes.
-3. Never add Access Tokens, real checkout URLs, buyer data, session IDs, or
-   idempotency keys to commits, test fixtures, logs, or screenshots.
+3. Never add Access Tokens, real checkout URLs, buyer data, session IDs, Order
+   IDs, seller references (including `external_reference`), or idempotency keys
+   to commits, test fixtures, logs, or screenshots.
 4. Explain the problem, approach, validation, and any compatibility impact in
    the pull request description.
 5. Respond to review feedback and keep the branch current with `main` when
@@ -74,4 +77,3 @@ See [docs/security.md](docs/security.md) for the full responsibility split.
 
 By contributing, you agree that your contribution is provided under the
 [Apache License 2.0](LICENSE).
-
